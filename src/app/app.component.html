@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<div class="container">
+	    <a class="navbar-brand" routerLink="/home">Brand</a>
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+
+	    <div class="collapse navbar-collapse" id="navbarColor02">
+	      	<ul class="navbar-nav mr-auto">
+	      		<li class="nav-item">
+					<a class="nav-link" routerLink="/login" routerLinkActive="active">Login <span class="sr-only">(current)</span></a>
+				</li>
+	      	</ul>
+
+	      	<ul class="navbar-nav">
+	      		<li class="nav-item">
+					<a class="nav-link" id="dropdownBasic1">
+						<div class="img" style="background-image: url('https://avatars3.githubusercontent.com/u/3959008?v=3&s=40')"> </div>
+				      	<span class="name">Admin</span>
+				    </a>
+				</li>
+	      	</ul>
+	    </div>
+    </div>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
